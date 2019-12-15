@@ -1,0 +1,86 @@
+<!--
+	Written By Mr Bob Term 2 2019
+	Math games
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GOGL HOME</title>
+	<meta charset="utf-8">
+  
+	<script src="p5.js"></script>
+	<script src="p5.dom.min.js"></script>
+	<!--<script src="p5.sound.min.js"></script>-->
+  
+	<!--firebase start -->
+	<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+	<script src="firebase.js"></script>
+	<script src="firebaseui.js"></script>
+	<script src="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css">
+	<!-- firebase end -->
+  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="global.js"></script>
+	<script defer src="cookie.js"></script>	
+	<script defer src="DBstuff.js"></script>	
+	<script defer src="index.js"></script>
+</head>
+
+<body class="w3-cyan">	
+	<div class="w3-container w3-top marginLeft">
+		<div class="w3-bar w3-cyan">
+			<a href="index.html"   class="w3-bar-item w3-button w3-mobile w3-border w3-gray">home</a>
+			<a href="levels.html"  id="levels" class="w3-disabled w3-bar-item w3-button w3-mobile w3-border">levels</a>
+			<a href="coords.html"  id="coords" class="w3-disabled w3-bar-item w3-button w3-mobile w3-border">co-ords</a>
+			<a href="grad.html"    id="grad" class="w3-disabled w3-bar-item w3-button w3-mobile w3-border">gradiant</a>
+			<a href="results.html" id="results" class="w3-disabled w3-bar-item w3-button w3-mobile w3-border">results</a>
+			
+			<div class="w3-dropdown-hover w3-mobile">
+				<button class="w3-button w3-border">help<i class="fa fa-caret-down"></i></button>
+				<div class="w3-dropdown-content w3-bar-block">
+					<a href="help_coords.html" class="w3-bar-item w3-button w3-mobile w3-border">co-ordinates</a>
+					<a href="help_grad.html"   class="w3-bar-item w3-button w3-mobile w3-border">gradiants</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="w3-container w3-gray w3-margin-right marginPaddingLeft marginTopH1">				
+		<h1 id="GOGL_h1">GOGL: KEEPING ON TRACK WITH PESKY MATHS</h1>
+	</div>
+	
+	<script>
+	/********************************************************************/
+	// P5.js preload()
+    //  Called by P5.js before setup
+	/********************************************************************/
+	/*
+	function preload() {
+		// local variables
+		//inconsolata = loadFont('Inconsolata-Regular.otf');
+	  
+		// load different file types so browser can find one to play
+		mcClickOk   = loadSound(["music/success_1.mp3",
+								"music/success_1.ogg"]);				   
+		mcClickFail = loadSound(["music/retro-video-game-sfx-fail.mp3",
+								"music/retro-video-game-sfx-fail.ogg"]);
+		mcLevelOK   = loadSound(["music/level_complete.mp3",
+								"music/level_complete.ogg"]);
+		mcLevelFail = loadSound(["music/horn-fail-wahwah-1.mp3",
+								"music/horn-fail-wahwah-1.ogg"]);
+		mcGameOK    = loadSound(["music/game_complete_1.mp3",
+							   "music/game_complete_1.ogg"]);
+		mcGameFail  = loadSound(["music/horn-fail-wahwah-1.mp3",
+								"music/horn-fail-wahwah-1.mp3"]); 					
+	}
+	*/
+	</script>
+
+</body>
+</html>

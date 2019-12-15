@@ -1,0 +1,41 @@
+/*****************************************************************	
+	Written by Mr Bob Term 2 2019
+		Styling of front end panel for Math co-ordinates game.
+*****************************************************************/
+html, body {  
+	font-family: Tahoma;
+	font-size: 25px;
+	color: black;
+	font-weight: 510;
+	margin: 0px;  
+	padding: 0px;
+}
+
+canvas {
+	display: block;
+	margin: 0px;
+}
+
+.marginLeft {
+	margin-left:104px;
+}
+
+.marginPaddingLeft{
+	margin-left:120px;
+}
+
+.marginTopH1 {
+	margin-top:56px;
+}
+
+.margin0 {
+	margin: 0px;
+}
+
+.paddingLeft {
+	padding-left:120px;
+}
+
+/*****************************************************************
+//				END OF STYLING
+*****************************************************************/
